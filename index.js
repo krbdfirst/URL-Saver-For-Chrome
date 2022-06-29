@@ -7,9 +7,6 @@ const delBtn = document.getElementById("del-btn")
 const display = document.getElementById("display-url")
 const listUrl = document.getElementById('url-list')
 const a = document.createElement('a')
-const tabs = [
-    { url: "https://fb.com" }
-]
 if (savedInputs) {
     inputs = savedInputs
     save(inputs)
